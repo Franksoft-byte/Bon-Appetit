@@ -1,0 +1,733 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+.s a{
+	color: black;
+}
+
+button{
+	background: rgba(255,255,255,1);
+	top:80%;
+	left: 80%;
+	width: 10%;
+	position: absolute;
+	height: 6%;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+button{
+	background: rgba(255,255,255,0.7);
+	top:80%;
+	left: 80%;
+	width: 10%;
+	position: absolute;
+	height: 6%;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+body{
+	background: white;
+}
+
+.Portada{
+	background: url("../img/portada de inicio.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.Portada2{
+	background: url("../img/carne.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.Portada3{
+	background: url("../img/marisco.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.Portada4{
+	background: url("../img/postres.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.Portada5{
+	background: url("../img/bebdidas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.menu{
+	position: fixed;
+	background: black;
+	width: 100%;
+	height: 10%;
+	padding: 0.5%;
+	z-index: 1;
+	color: white;
+
+}
+
+.menu a:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+    a-color: black;
+	
+}
+
+		
+
+ a:hover{
+	color:black;
+	transition: 1s;
+	text-decoration: none;
+	
+}
+
+.menu a{
+	position: relative;
+	left: 27%;
+	width: 10%;
+	height: 100%;
+	float: left;
+	padding: 15px;
+	top: 0%;
+	transition: 1s;
+
+}
+a{
+	color: white;
+	margin: 0px;
+	background: transparent;
+	text-align: center;
+	list-style: none;
+	cursor: pointer;
+	font-size: 20px;
+	
+}
+
+.menu h1{
+	color: white;
+  float: left;
+	position: absolute;
+	left: 10%;
+	font-size: 40px;
+}
+
+.menu img{
+	position: fixed;
+	width: 5%;
+	left: 2%;
+	top: 0px;
+}
+
+.imgbus img{
+	top: 1%;
+	position: fixed;
+	left: 79.1%;
+	width: 4%
+}
+
+input[type="search"]{
+	position: fixed;
+	top: 2%;
+	z-index: 1;
+	left: 83%;
+	width: 15%;
+	height: 5%;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #fff;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+
+::placeholder{
+	color: white;
+	font-size: 20px;
+}
+
+.txt1{
+	background: transparent;
+	width: 100%;
+	height: 70%;
+	top: 100%;
+	position: absolute;
+	padding: 70px;
+}
+
+.txt1 h1{
+	background: transparent;
+	padding: 20px;
+	width: 40%;
+	position: absolute;
+}
+
+table {
+	position: relative;
+	left: 45%;
+	width:0%;
+	height: 50%;
+	display: flex;
+	padding: 1%;
+}
+
+table td img{
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+.txt2{
+	background: white;
+	position: absolute;
+	width: 35%;
+	top: 30%;
+	height: 60%;
+	
+}
+
+.info{
+	position: absolute;
+	top: 100%;
+	background: url("../img/frutas1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	right: 0%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.info6{
+	position: absolute;
+	top: 100%;
+	background: url("../img/carne9.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	right: 0%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.info3{
+	position: absolute;
+	top: 100%;
+	background: url("../img/marisco6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	right: 0%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.info4{
+	position: absolute;
+	top: 100%;
+	background: url("../img/postres4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	right: 0%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.info5{
+	position: absolute;
+	top: 100%;
+	background: url("../img/bebdidas6.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	right: 0%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+ u{
+    font-size: 20px;
+}
+
+.info img{
+	border-radius: 30px;
+	position: absolute;
+	left: 55%;
+	height: 70%;
+	width: 30%;
+	top:15%;
+}
+
+.info3 img{
+	border-radius: 30px;
+	position: absolute;
+	left: 55%;
+	height: 70%;
+	width: 30%;
+	top:15%;
+}
+
+.info6 img{
+	border-radius: 30px;
+	position: absolute;
+	left: 55%;
+	height: 70%;
+	width: 30%;
+	top:15%;
+}
+
+.info4 img{
+	border-radius: 30px;
+	position: absolute;
+	left: 55%;
+	height: 70%;
+	width: 30%;
+	top:15%;
+}
+
+.info5 img{
+	border-radius: 30px;
+	position: absolute;
+	left: 55%;
+	height: 70%;
+	width: 30%;
+	top:15%;
+}
+
+.infotxt{
+	padding: 20px;
+	background: white;
+	width: 44%;
+	position: absolute;
+	left: 9%;
+	top:16%;
+	height: 70%;
+	border-radius: 20px;
+	color: black;
+	
+}
+
+.infotxt h1{
+	width: 100%;
+	margin: -20px;
+}
+
+.infotxt p{
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	width: 95%;
+}
+
+.imgtxt{
+	background: transparent;
+	position: absolute;    
+	top:200%;
+	width: 100%;
+	height: 130%;
+	right: 0%;
+}
+
+.imgtxt table{
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	left: 10%;
+	top: 10%;
+	padding: 20px;
+}
+
+.imgtxt table td{
+	width: 800px;
+	height: 215px;
+	text-align: justify;
+    padding: 20px;
+}
+
+.imgtxt table td img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+}
+
+.contenidotxt{
+	background: url("../img/fondo2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 130%;
+	right: 0px;
+	top: 330%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.contenidotxt2{
+	background: url("../img/carne5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 130%;
+	right: 0px;
+	top: 330%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.contenidotxt3{
+	background: url("../img/marisco7.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 130%;
+	right: 0px;
+	top: 330%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.contenidotxt4{
+	background: url("../img/postres7.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 130%;
+	right: 0px;
+	top: 330%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+.contenidotxt5{
+	background: url("../img/bebidas9.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 130%;
+	right: 0px;
+	top: 330%;
+    background-color:rgba(50,50,50);
+    background-blend-mode: soft-light;
+}
+
+
+.contenidotxt p{
+	padding: 2%;
+	float: left;	
+	width: 25%;
+	margin:10px;
+	position: relative;
+	text-align: justify;
+	left: 10%;
+	top: 20%;
+	height: 40%;
+	background: white;
+	border-radius: 20px;
+}
+
+.contenidotxt2 p{
+	padding: 2%;
+	float: left;	
+	width: 25%;
+	margin:10px;
+	position: relative;
+	text-align: justify;
+	left: 10%;
+	top: 20%;
+	height: 40%;
+	background: white;
+	border-radius: 20px;
+}
+
+.contenidotxt3 p{
+	padding: 2%;
+	float: left;	
+	width: 25%;
+	margin:10px;
+	position: relative;
+	text-align: justify;
+	left: 10%;
+	top: 20%;
+	height: 40%;
+	background: white;
+	border-radius: 20px;
+}
+
+.contenidotxt4 p{
+	padding: 2%;
+	float: left;	
+	width: 25%;
+	margin:10px;
+	position: relative;
+	text-align: justify;
+	left: 10%;
+	top: 20%;
+	height: 40%;
+	background: white;
+	border-radius: 20px;
+}
+
+.contenidotxt5 p{
+	padding: 2%;
+	float: left;	
+	width: 25%;
+	margin:10px;
+	position: relative;
+	text-align: justify;
+	left: 10%;
+	top: 20%;
+	height: 40%;
+	background: white;
+	border-radius: 20px;
+}
+
+
+.contenidotxt u{
+    font-size: 25px;
+}
+
+.contenidotxt2 u{
+    font-size: 25px;
+}
+
+.contenidotxt3 u{
+    font-size: 25px;
+}
+
+.contenidotxt4 u{
+    font-size: 25px;
+}
+
+.contenidotxt5 u{
+    font-size: 25px;
+}
+
+.info2{
+	background: white;
+	position: absolute;
+	top: 450%;
+	width: 100%;
+	height: 130%;
+	right: 0%;
+	padding: 2%
+}
+
+.img2{
+	padding: 50px;
+}
+
+.img2 img{
+	border-radius: 30px;
+    width: 50%;
+    height:30%;
+}
+
+.infocontenido{
+	position: absolute;
+	left: 60%;
+	width: 35%;
+	height: 50%;
+	top: 25%
+}
+
+.infocontenido h1{
+	position: absolute;
+	top: -30%;
+	width: 60%;
+}
+
+.Footer{
+	background: black;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	top: 560%;
+}
+
+.Footer p{
+	position: absolute;
+	width: 40%;
+	margin: 40px;
+	top: 20%;
+	color: white;
+}
+
+.Footer h1{
+	color: white;
+	position: absolute;
+	font-size: 50px;
+	left: 20px;
+	top:10%;
+}
+.arriba{
+	color: white;
+	position: absolute;
+	width: 20px;
+	top: 570%;
+	font-size: 20px;
+	left: 90%;
+}
+
+.arriba:hover{
+	transition: 2s;
+}
+
+.arriba img{
+	width: 60px;
+}
+
+.extra{
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	top: 580%;
+}
+
+.redes{
+	position: absolute;
+	width: 50%;
+	height: 20%;
+	top:503%;
+	left: 45%;
+}
+
+.redes li{
+	text-align: left;
+	padding: 10px
+}
+
+.Comentarios{
+	position: absolute;
+	top: 501%;
+	left: 62%;
+	width: 30%;
+	height: 50%;
+	padding: 0px;
+}
+
+.Comentarios h1{
+	text-align: center;
+	color: white;
+}
+.Comentarios input{
+	left: 40px;
+	position: absolute;
+}
+
+.Comentarios p{
+	color: white;
+}
+
+input[type="email"]{
+	background: black;
+	width: 300px;
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+
+input[type="email"]:hover{
+		border-bottom: 2px solid red;
+}
+
+
+input[type="password"]{
+	background: black;
+	width: 300px;
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid #fff;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+
+input[type="password"]:hover{
+	border-bottom: 2px solid red;
+}
+
+input[type="submit"]{
+	background: black;
+	width: 300px;
+	height: 40px;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 20px;
+}
+
+input[type="submit"]:hover{
+	background: linear-gradient(45deg, red, magenta);
+}
+
+.texttarea{
+	background: black;
+}
+
+
